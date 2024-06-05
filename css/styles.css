@@ -413,8 +413,8 @@ header {
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 .paragraph-footer {
@@ -422,6 +422,7 @@ header {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  text-align: left;
 }
 span {
   color: #2e2f42;
@@ -459,14 +460,14 @@ img {
 }
 
 .footer-article {
-  margin-right: 120px;
+  text-align: center;
+  margin-bottom: 72px;
 }
 
-.footer-beginning {
+/*.footer-beginning {
   display: flex;
   align-items: baseline;
-}
-
+}*/
 .social-paragraph {
   font-weight: 500;
   font-size: 16px;
@@ -476,9 +477,16 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-social-media {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
 .social-icons-footer {
   list-style-type: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -542,7 +550,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  margin-left: 24px;
+  margin-left: 20%;
 }
 
 .icon-send {
@@ -557,10 +565,10 @@ img {
 }
 
 .footer-subscribe {
-  margin-left: 80px;
 }
 
 .subscribe-pharagraph {
+  text-align: center;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -651,7 +659,6 @@ img {
 }
 
 .footer-form {
-  display: flex;
   gap: 24px;
 }
 
