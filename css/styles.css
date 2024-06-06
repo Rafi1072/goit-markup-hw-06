@@ -81,7 +81,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 56px;
-  width: 320px;
+  margin: auto;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -192,7 +192,6 @@ header {
   height: 432px;
   padding: 188px 0;
   gap: 10px;
-  max-width: 320px;
   margin: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -211,7 +210,7 @@ header {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
-  max-width: 320px;
+  max-width: 290px;
 }
 
 .button {
@@ -343,7 +342,8 @@ header {
 }
 
 .team-list {
-  width: 320px;
+  margin-left: 10px;
+  width: 290px;
   gap: 24px;
 }
 
@@ -465,6 +465,10 @@ img {
   margin-bottom: 72px;
 }
 
+.margin {
+  margin-left: 60px;
+}
+
 /*.footer-beginning {
   display: flex;
   align-items: baseline;
@@ -522,7 +526,7 @@ img {
 }
 
 .email-footer-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -594,7 +598,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  width: 288px;
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -780,7 +784,7 @@ img {
 
 .send-btn {
   display: block;
-  margin-left: 25%;
+  margin-left: 15%;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
