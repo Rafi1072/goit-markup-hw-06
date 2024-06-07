@@ -991,4 +991,32 @@ img {
     display: flex;
     align-items: baseline;
   }
+
+  .email-footer-input {
+    width: 264px;
+  }
+
+  .footer-btn {
+    margin-left: 24px;
+  }
+
+  .footer-subscribe {
+    margin-left: 80px;
+  }
+
+  .modal {
+    display: block;
+  }
+
+  .modal-container-btn {
+    width: 408px;
+  }
+
+  .footer-form {
+    display: flex;
+  }
+
+  .send-btn {
+    margin-left: 25%;
+  }
 }
