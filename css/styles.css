@@ -90,7 +90,7 @@ header {
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -133,7 +133,7 @@ header {
 }
 
 .contacts {
-  display: none;
+  overflow: hidden;
   font-style: normal;
   color: #434455;
   font-size: 16px;
@@ -191,7 +191,7 @@ header {
   top: 0;
   left: 0;
 
-  padding: 1rem 4rem;
+  padding: 16px 44px 40px 16px;
   box-sizing: border-box;
 
   width: 100vw;
@@ -235,7 +235,7 @@ header {
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 30px;
 }
 
 .social-icon {
@@ -450,6 +450,7 @@ header {
 
 .images-list {
   /*width: calc((100% - 48px) / 3);*/
+  width: 290px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -459,6 +460,10 @@ header {
 .parent {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-image {
+  width: 290px;
 }
 
 .child {
@@ -878,7 +883,112 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+}
+
+.contacts {
 }
 
 @media screen and (min-width: 1158px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .top-bar {
+    height: 72px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .contacts {
+    overflow: visible;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .first-section {
+    height: 600px;
+    max-width: 1440px;
+  }
+
+  .first-heading {
+    font-size: 56px;
+    max-width: 496px;
+    margin-left: 350px;
+  }
+
+  .button {
+    margin-left: 500px;
+  }
+
+  .second-section {
+    padding: 120px 0;
+  }
+
+  .icon {
+    display: flex;
+  }
+
+  .strategy-list {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .first-list {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .team-list {
+    display: flex;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .images-list {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .page-footer {
+    display: flex;
+  }
+
+  .photo {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .footer-article {
+    margin-right: 120px;
+  }
+
+  .footer-beginning {
+    display: flex;
+    align-items: baseline;
+  }
 }
