@@ -202,19 +202,7 @@ header {
 .column {
   display: flex;
   flex-direction: column;
-}
-
-.close-btn-is-open {
-  align-self: flex-end;
-  border: none;
-  background-color: #e7e9fc;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-}
-
-.close-btn-is-open:hover {
-  filter: brightness(0.7);
+  justify-content: space-between;
 }
 
 .mobile-nav-list {
@@ -227,6 +215,7 @@ header {
 
 .nav-link {
   font-size: 36px;
+  font-weight: bold;
 }
 
 .mobile-addres {
@@ -334,7 +323,7 @@ header {
 }
 
 .third-heading {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: #2e2f42;
