@@ -947,11 +947,11 @@ img {
   .first-heading {
     font-size: 56px;
     max-width: 496px;
-    margin-left: 350px;
+    margin-left: 150px;
   }
 
   .button {
-    margin-left: 500px;
+    margin-left: 300px;
   }
 
   .second-section {
@@ -1017,6 +1017,7 @@ img {
 
   .modal {
     display: block;
+    display: none;
   }
 
   .modal-container-btn {
