@@ -905,11 +905,15 @@ img {
 
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 768px;
+    width: 1158px;
   }
 
   .top-bar {
     height: 72px;
+  }
+
+  .header-container {
+    margin-left: 27%;
   }
 
   .nav-list {
@@ -918,6 +922,13 @@ img {
 
   .contacts {
     overflow: visible;
+  }
+
+  .contacts-list {
+    height: 100px;
+    width: 400px;
+    margin-left: 150px;
+    align-items: center;
   }
 
   .hamburger {
