@@ -948,16 +948,98 @@ img {
   }
 
   .strategy-list {
+    flex-direction: row;
     flex-wrap: wrap;
     max-height: 312px;
   }
 
-  .third-heading {
+  .text-mode {
+    font-size: 36px;
     text-align: left;
+  }
+
+  .text-left {
+    font-weight: 500;
   }
 
   .first-list {
     max-width: 356px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    margin-left: 108px;
+    margin-right: 108px;
+    width: 738px;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-beginning {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 108px;
+  }
+
+  .margin {
+    margin: 0;
+  }
+
+  .footer-article {
+    text-align: left;
+  }
+
+  .social-paragraph {
+    text-align: left;
+  }
+
+  .subscribe-pharagraph {
+    text-align: left;
+  }
+
+  .footer-social-media {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+
+  .footer-form {
+    display: flex;
+  }
+
+  .footer-btn {
+    margin: 0;
+  }
+
+  .email-footer-input {
+    width: 264px;
+  }
+
+  .modal {
+    display: block;
+  }
+
+  .modal {
+    display: block;
+  }
+
+  .modal-container-btn {
+    width: 408px;
+  }
+
+  .footer-form {
+    display: flex;
+  }
+
+  .send-btn {
+    margin-left: 25%;
   }
 }
 
