@@ -884,7 +884,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
   }
 
   .mobile-nav {
@@ -905,7 +904,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    min-width: 1158px;
   }
 
   .top-bar {
@@ -947,15 +946,16 @@ img {
   .first-heading {
     font-size: 56px;
     max-width: 496px;
-    margin-left: 150px;
+    margin-left: 350px;
   }
 
   .button {
-    margin-left: 300px;
+    margin-left: 500px;
   }
 
   .second-section {
     padding: 120px 0;
+    margin: auto;
   }
 
   .icon {
@@ -964,7 +964,7 @@ img {
 
   .strategy-list {
     flex-direction: row;
-    align-items: stretch;
+    width: 1158px;
   }
 
   .first-list {
@@ -973,6 +973,8 @@ img {
 
   .team-list {
     display: flex;
+    min-width: 1158px;
+    margin: 0;
   }
 
   .portfolio-list {
@@ -991,7 +993,7 @@ img {
   }
 
   .photo {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
   }
 
   .footer-article {
