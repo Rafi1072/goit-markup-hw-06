@@ -923,8 +923,7 @@ img {
   }
 
   .contacts {
-    height: 72px;
-    width: 120px;
+    justify-content: center;
     margin-left: 130px;
   }
 
@@ -969,9 +968,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin: 0;
-    margin-left: 108px;
-    margin-right: 108px;
     width: 738px;
   }
 
@@ -979,6 +977,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+  }
+
+  .page-footer {
     justify-content: center;
   }
 
@@ -1018,7 +1020,7 @@ img {
   }
 
   .email-footer-input {
-    width: 264px;
+    justify-content: center;
   }
 
   .modal {
@@ -1030,6 +1032,7 @@ img {
   }
 
   .modal-container-btn {
+    justify-content: center;
     width: 408px;
   }
 
@@ -1042,7 +1045,7 @@ img {
   }
 
   .footer-subscribe {
-    margin-right: 40px;
+    margin-right: 22px;
   }
 }
 
